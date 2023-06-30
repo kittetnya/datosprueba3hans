@@ -45,3 +45,13 @@ y se termina al instante (como un break)
 
 ---------------------------------------
 
+DICCIONARIO EXISTENTE=
+diccionario = {'clave1': valor1, 'clave2': valor2}
+
+AGREGAR NUEVA CLAVE Y VALOR AL DICCIONARIO=
+diccionario['clave3'] = valor3
+
+IMPRIMIR EL DICCIONARIO ACTUALIZADO=
+print(diccionario)
+
+
