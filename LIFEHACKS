@@ -1,0 +1,47 @@
+#ejemplo de diccionario
+usuario = {
+    "nombre":"Pepito",
+    "edad":19
+}
+
+#imprimir un dato del diccionario
+print(usuario["nombre"])
+
+#cambiar un dato del diccionario
+usuario["nombre"] = "Pepo"
+
+#Imprima el nuevo valor <<<<
+
+
+#agregar una llave y un nuevo valor al diccionario
+usuario["altura"] = 1.67 #<- en este caso agregamos un float
+#si colocamos una llave que no existe, python la creara y agregara ese valor!
+
+------------------------------
+
+Escribamos una funcion
+
+
+def imprimirPalabra (palabra) -> None:
+    print(palabra)
+
+
+La funcion se escribe de la siguiente forma
+
+def <nombre_funcion> (parametros) -> tipo_de_dato_salida :
+    codigo
+
+
+def sumar (a:int,b:int) -> int :
+    c = a+b
+    return c
+
+
+Las funciones pueden retornar un tipo de dato especifico
+(int) (float) (bool) etc...
+Para eso se usa la palabra "return"
+Cuando usamos return, la funcion "devuelve" de inmediato el valor
+y se termina al instante (como un break)
+
+---------------------------------------
+
